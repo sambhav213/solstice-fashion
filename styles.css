@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: bisque;
+}
+
+.header{
+    background-color:rgba(252, 195, 126, 0.729);
+    position: fixed;
+    z-index: 10;
+    width: 90%;
+    border-radius: 30px;
+    left: 5%;
+    top: 2%;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.header-button:hover{
+    background-color: #5783db;
+    color: azure;
+}
+
+.hero {
+    background-image: url("./media/Hero.jpg");
+    background-size: cover;
+    height: 50rem;
+    position: relative;
+}
+
+.hero-content{
+    position: absolute;
+    top: 80%;
+}
+
+img{
+    cursor: pointer;
+}
+.gallery-section{
+    background-image: url("./media/bg-image.jpg");
+}
+
+.gallery-img:hover{
+    border-radius: 10px;
+    transform: scale(1.25);
+    transition-duration: 2s;
+    cursor: zoom-in;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+
+.ecomm-section{
+    background-image: url("./media/bg-image.jpg");
+}
+
+.footer{
+    background-image: url("./media/bg-image.jpg");
+
+}
+.footer-section{
+    background-color: rgb(252, 195, 126);
+}
+
+.product-section{
+    margin-top: 50px;
+}
