@@ -1,12 +1,25 @@
 html{
     scroll-behavior: smooth;
+    cursor: none;
 }
 body{
     background-color: bisque;
 }
 
 .header{
+    background-color:rgba(252, 195, 126, 0);
+    transition: background-color 0.75s;
+    position: fixed;
+    z-index: 10;
+    width: 90%;
+    border-radius: 30px;
+    left: 5%;
+    top: 2%;
+}
+
+.bg-on-scroll{
     background-color:rgba(252, 195, 126, 0.729);
+    transition: background-color 2s;
     position: fixed;
     z-index: 10;
     width: 90%;
@@ -17,6 +30,13 @@ body{
 
 a:hover{
     cursor: pointer;
+}
+
+.nav-options:hover{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
 }
 
 .header-button:hover{
